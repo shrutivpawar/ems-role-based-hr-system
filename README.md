@@ -28,8 +28,6 @@ This project demonstrates:
 
 ## 📂 Project Structure
 
-## 📂 Project Structure
-
 ```text
 src/
 ├── components/          # Reusable UI components
