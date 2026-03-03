@@ -28,21 +28,19 @@ This project demonstrates:
 
 ## 📂 Project Structure
 
-src/
+src
+├── components        # Reusable UI components
+│   ├── Login.jsx
+│   ├── Navbar.jsx
+│   ├── EmployeeForm.jsx
+│   └── EmployeeList.jsx
 │
-├── components/
-│ ├── Login.jsx
-│ ├── Navbar.jsx
-│ ├── EmployeeForm.jsx
-│ ├── EmployeeList.jsx
+├── context           # Global state management
+│   └── AppContext.jsx
 │
-├── context/
-│ └── AppContext.jsx
-│
-├── App.jsx
-├── main.jsx
-├── index.css
-
+├── App.jsx           # Main application component
+├── main.jsx          # Entry point
+└── index.css         # Global styles
 
 ---
 
