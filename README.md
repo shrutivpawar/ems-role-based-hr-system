@@ -28,23 +28,25 @@ This project demonstrates:
 
 ## 📂 Project Structure
 
-src
-├── components        # Reusable UI components
+## 📂 Project Structure
+
+```text
+src/
+├── components/          # Reusable UI components
 │   ├── Login.jsx
 │   ├── Navbar.jsx
 │   ├── EmployeeForm.jsx
 │   └── EmployeeList.jsx
-│
-├── context           # Global state management
+├── context/             # Global state management
 │   └── AppContext.jsx
-│
-├── App.jsx           # Main application component
-├── main.jsx          # Entry point
-└── index.css         # Global styles
+├── App.jsx              # Main application component
+├── main.jsx             # Entry point
+└── index.css            # Global styles
+```
 
 ---
 
-# 🔐 Authentication System
+## 🔐 Authentication System
 
 The application uses a **mock users database** inside `AppContext.jsx` to simulate login authentication.
 
